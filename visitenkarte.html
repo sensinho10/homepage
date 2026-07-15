@@ -7,21 +7,25 @@
   <meta name="description" content="Kontaktdaten von Stephan Senser — KI- und Automatisierungsberatung fuer den Mittelstand in Augsburg und Schwaben.">
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Keine feste Nav auf der Visitenkarte — Logo sitzt im Hero und scrollt normal mit, statt zu ueberlagern */
+    #nav { position: static; }
+  </style>
 </head>
 <body>
 
-  <!-- NAV -->
-  <nav class="nav" id="nav">
-    <div class="nav-inner">
-      <div class="nav-logo">
-        <img src="senser-band-ohne-tagline.svg" alt="SENSER" class="nav-logo-img">
-      </div>
-    </div>
-  </nav>
-
   <!-- HERO / VISITENKARTE -->
-  <section class="hero" style="min-height: auto; padding: 160px 24px 100px;">
-    <div class="hero-content">
+  <section class="hero" style="min-height: auto; padding: 0 24px 100px;">
+    <!-- NAV -->
+    <nav class="nav" id="nav">
+      <div class="nav-inner">
+        <div class="nav-logo">
+          <img src="senser-band-ohne-tagline.svg" alt="SENSER" class="nav-logo-img">
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero-content" style="padding-top: 48px;">
       <div class="hero-badge" data-reveal>
         <span class="badge-prefix">&gt;</span><span class="badge-typed">Kontakt aufnehmen</span><span class="badge-cursor">&#9608;</span>
       </div>
