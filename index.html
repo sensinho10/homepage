@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stephan Senser - KI &amp; Automatisierung fuer den Mittelstand</title>
+  <meta name="description" content="Ich helfe KMU in Augsburg und Schwaben, KI und Automatisierung dort einzusetzen, wo sie sofort Zeit und Geld sparen. Von der Analyse bis zur fertigen Loesung.">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="logo.svg" alt="SENSER — KI &amp; Automatisierung" class="nav-logo-img">
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#angebot">Angebot</a>
+        <a href="#ueber">&#220;ber mich</a>
+        <a href="#foerderung">F&#246;rderung</a>
+        <a href="#kontakt" class="nav-cta">Gespr&#228;ch vereinbaren</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Men&#252;">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <canvas id="heroCanvas" class="hero-canvas"></canvas>
+    <div class="hero-content">
+      <div class="hero-badge" data-reveal><span class="badge-prefix">&gt;</span><span class="badge-typed"></span><span class="badge-cursor">&#9608;</span></div>
+      <h1 data-reveal data-delay="100">
+        Ich berate nicht nur.<br>
+        <em>Ich baue die L&#246;sung.</em>
+      </h1>
+      <p class="hero-sub" data-reveal data-delay="200">
+        Viele Unternehmen wissen, dass KI helfen kann &#8211; aber nicht, wo sie anfangen sollen. Ich zeige den passenden Einstieg und baue die L&#246;sung direkt mit.
+      </p>
+      <div class="hero-actions" data-reveal data-delay="300">
+        <a href="#kontakt" class="btn btn-primary">Kostenloses Erstgespr&#228;ch</a>
+        <a href="#angebot" class="btn btn-ghost">So arbeite ich</a>
+      </div>
+      <div class="hero-proof" data-reveal data-delay="400">
+        <div class="proof-item">
+          <span class="proof-number">15+</span>
+          <span class="proof-label">Jahre Erfahrung<br>in der Prozessoptimierung</span>
+        </div>
+        <div class="proof-divider"></div>
+        <div class="proof-item">
+          <span class="proof-number">50%</span>
+          <span class="proof-label">F&#246;rderung m&#246;glich<br>durch Digitalbonus Bayern</span>
+        </div>
+        <div class="proof-divider"></div>
+        <div class="proof-item">
+          <span class="proof-number">100%</span>
+          <span class="proof-label">Beratung &amp; Umsetzung<br>aus einer Hand</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="section section-dark" id="problem">
+    <div class="container">
+      <div class="section-label" data-reveal>Das Problem</div>
+      <h2 class="section-title" data-reveal>
+        KI ist &#252;berall.<br>
+        <span class="text-gold">Aber keiner sagt Ihnen, was sich wirklich lohnt.</span>
+      </h2>
+      <p class="section-sub" data-reveal>Zwischen ChatGPT, Automatisierung, Datenschutz und F&#246;rdermitteln bleibt eine entscheidende Frage: Wo spart KI in Ihrem Unternehmen wirklich Zeit und wann lohnt sich der Einsatz wirtschaftlich?</p>
+      <div class="problem-grid">
+        <div class="problem-card" data-reveal>
+          <div class="problem-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14 8h20M10 16h28M6 24h36M10 32h28M14 40h20"/><circle cx="36" cy="8" r="3" fill="currentColor" stroke="none"/><circle cx="12" cy="24" r="3" fill="currentColor" stroke="none"/><circle cx="32" cy="40" r="3" fill="currentColor" stroke="none"/></svg>
+          </div>
+          <h3>Keine klare Priorit&#228;t</h3>
+          <p>&#220;berall neue Tools, Versprechen und Buzzwords. Aber niemand pr&#252;ft, welcher Prozess in Ihrem Unternehmen wirklich Zeit frisst &#8212; und wo KI sofort Wirkung bringen kann.</p>
+        </div>
+        <div class="problem-card" data-reveal data-delay="100">
+          <div class="problem-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="24" cy="14" r="6"/><path d="M12 38c0-6.6 5.4-12 12-12s12 5.4 12 12"/><path d="M30 26l8-4M32 30l6 0"/></svg>
+          </div>
+          <h3>Keine Kapazit&#228;t im Team</h3>
+          <p>Ihr Team hat genug Tagesgesch&#228;ft. F&#252;r KI, Automatisierung und neue Tools fehlen Zeit, Erfahrung und ein klarer Fahrplan.</p>
+        </div>
+        <div class="problem-card" data-reveal data-delay="200">
+          <div class="problem-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="8" y="6" width="32" height="36" rx="3"/><path d="M16 16h16M16 24h12M16 32h8"/><path d="M34 28l6 6M40 28l-6 6" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Zu wenig Umsetzung</h3>
+          <p>Viele Beratungen liefern Konzepte. Was fehlt, ist eine L&#246;sung, die im Alltag wirklich genutzt wird &#8212; einfach, messbar und passend zum Unternehmen.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ANGEBOT / FLOW-PROZESS -->
+  <section class="section section-dark flow-section" id="angebot">
+    <div class="container">
+      <div class="section-label" data-reveal>Mein Vorgehen</div>
+      <h2 class="section-title" data-reveal>
+        In vier Schritten<br>
+        <span class="text-gold">zur fertigen L&#246;sung.</span>
+      </h2>
+      <p class="lead" data-reveal>Vom ersten &#220;berblick bis zur laufenden Automatisierung. Sie bekommen keinen theoretischen KI-Fahrplan, sondern eine klare Priorisierung, erste sichtbare Ergebnisse und eine L&#246;sung, die im Alltag funktioniert.</p>
+
+      <div class="flow" id="flow">
+        <div class="rail-base"></div>
+        <div class="rail-fill"></div>
+        <div class="rail-pulse"></div>
+
+        <ol class="flow-steps">
+          <li class="step">
+            <div class="node">01</div>
+            <div class="card">
+              <h3>KI-Audit / Standortbestimmung</h3>
+              <p>Wir analysieren Ihre t&#228;glichen Abl&#228;ufe und identifizieren die Prozesse, bei denen KI und Automatisierung den gr&#246;&#223;ten Nutzen bringen. Ergebnis ist eine priorisierte Use-Case-Liste mit klarer Empfehlung f&#252;r die n&#228;chsten Schritte.</p>
+              <div class="tags"><span>Festpreis</span><span>F&#246;rdercheck</span></div>
+            </div>
+          </li>
+
+          <li class="step">
+            <div class="node">02</div>
+            <div class="card">
+              <h3>Workshop &amp; erster Prototyp</h3>
+              <p>Wir sch&#228;rfen den wichtigsten Anwendungsfall gemeinsam und bauen eine erste funktionsf&#228;hige Version. So sehen Sie fr&#252;h, was wirklich funktioniert, bevor unn&#246;tig Zeit und Budget in die falsche Richtung laufen.</p>
+              <div class="tags"><span>Praxisnah</span><span>Erste Ergebnisse</span></div>
+            </div>
+          </li>
+
+          <li class="step">
+            <div class="node">03</div>
+            <div class="card">
+              <h3>Umsetzung</h3>
+              <p>Aus dem Prototyp wird eine fertige L&#246;sung. Zum Beispiel eine Automatisierung, ein interner KI-Assistent oder ein schlanker Workflow, der Ihre bestehenden Tools sinnvoll verbindet.</p>
+              <div class="tags"><span>Fertige L&#246;sung</span><span>Dokumentiert</span></div>
+            </div>
+          </li>
+
+          <li class="step">
+            <div class="node">04</div>
+            <div class="card">
+              <h3>Training &amp; Einf&#252;hrung</h3>
+              <p>Ihr Team wird sauber eingewiesen und kann die neue L&#246;sung sicher im Alltag nutzen. Sie erhalten eine verst&#228;ndliche Dokumentation und bleiben nicht von externer Beratung abh&#228;ngig.</p>
+              <div class="tags"><span>Team-Einweisung</span><span>&#220;bergabe</span></div>
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <div class="cta-box" data-reveal>
+        <p>Nicht sicher, ob ein Audit der richtige erste Schritt ist?</p>
+        <a href="#kontakt" class="btn btn-primary">Lassen Sie uns kurz sprechen &#8212; kostenlos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- USE CASES -->
+  <section class="section section-dark" id="usecases">
+    <div class="container">
+      <div class="section-label" data-reveal>Erfahrung</div>
+      <h2 class="section-title" data-reveal>
+        Branchen unterscheiden sich.<br>
+        <span class="text-gold">Wiederkehrende Arbeit nicht.</span>
+      </h2>
+      <p class="section-sub" data-reveal>Ich bringe Erfahrung aus Vertrieb, E-Commerce, Gro&#223;handel, Verpackung und Prozessaufbau mit. Genau deshalb schaue ich nicht zuerst auf die Branche, sondern auf wiederkehrende Abl&#228;ufe: Angebote, Bestellungen, Kommunikation, Datenpflege, Auswertungen und interne Abstimmungen.</p>
+      <div class="usecase-grid">
+        <div class="usecase-card" data-reveal>
+          <div class="usecase-icon-wrap"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 38V14l16-8 16 8v24"/><path d="M8 14l16 8 16-8"/><path d="M24 22v16"/><path d="M16 18v12M32 18v12"/></svg></div>
+          <h3>Gro&#223;handel &amp; Vertrieb</h3>
+          <ul>
+            <li>Bestelleing&#228;nge automatisch erfassen und vorbereiten</li>
+            <li>Angebote schneller erstellen und nachfassen</li>
+            <li>Lieferanten- und Kundenkommunikation strukturieren</li>
+          </ul>
+        </div>
+        <div class="usecase-card" data-reveal data-delay="100">
+          <div class="usecase-icon-wrap"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="38" r="4"/><circle cx="36" cy="38" r="4"/><path d="M4 8h6l4 20h24l4-14H16"/></svg></div>
+          <h3>E-Commerce</h3>
+          <ul>
+            <li>Produkttexte und Beschreibungen automatisiert erstellen</li>
+            <li>Retouren und Kundenanfragen schneller bearbeiten</li>
+            <li>Shop-, Lager- und Verkaufsdaten besser synchronisieren</li>
+          </ul>
+        </div>
+        <div class="usecase-card" data-reveal data-delay="200">
+          <div class="usecase-icon-wrap"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 38h36"/><path d="M10 38V20h8v18"/><path d="M20 38V14h8v24"/><path d="M30 38V8h8v30"/><circle cx="14" cy="16" r="2"/><circle cx="24" cy="10" r="2"/><circle cx="34" cy="6" r="2"/></svg></div>
+          <h3>Produktion &amp; Verpackung</h3>
+          <ul>
+            <li>Wartungsintervalle und Pr&#252;fprozesse strukturieren</li>
+            <li>Produktionsdaten auswerten und Engp&#228;sse erkennen</li>
+            <li>Qualit&#228;ts- und Dokumentationsprozesse vereinfachen</li>
+          </ul>
+        </div>
+        <div class="usecase-card" data-reveal data-delay="300">
+          <div class="usecase-icon-wrap"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="8" y="6" width="32" height="36" rx="3"/><path d="M16 16h16M16 22h12M16 28h8"/><path d="M24 36l4-4M24 36l-4-4" stroke-linecap="round"/><circle cx="34" cy="14" r="4"/><path d="M32 14h4M34 12v4" stroke-width="1.5"/></svg></div>
+          <h3>Interne Prozesse &amp; Verwaltung</h3>
+          <ul>
+            <li>Wiederkehrende B&#252;roaufgaben automatisieren</li>
+            <li>Wissen, Dokumente und Abl&#228;ufe durchsuchbar machen</li>
+            <li>&#220;bergaben, Checklisten und Statusberichte vereinfachen</li>
+          </ul>
+        </div>
+      </div>
+      <div class="usecase-note" data-reveal>
+        <p>Ihre Branche ist nicht dabei? Kein Problem. Entscheidend ist nicht das Etikett der Branche, sondern ob es wiederkehrende Prozesse gibt. Genau dort lohnt sich Automatisierung.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- UEBER MICH -->
+  <section class="section" id="ueber">
+    <div class="container">
+      <div class="about-layout">
+        <div class="about-visual" data-reveal>
+          <div class="about-card-stack">
+            <div class="about-trait">
+              <span class="trait-icon-wrap"><svg viewBox="0 0 32 32" fill="none" stroke="#D98A2B" stroke-width="2"><circle cx="16" cy="16" r="14"/><path d="M16 6v20M10 12l6-6 6 6"/></svg></span>
+              <div>
+                <strong>Vertrieb &amp; F&#252;hrung</strong>
+                <span>15+ Jahre Erfahrung mit Kunden, Teams und Entscheidern</span>
+              </div>
+            </div>
+            <div class="about-trait">
+              <span class="trait-icon-wrap"><svg viewBox="0 0 32 32" fill="none" stroke="#D98A2B" stroke-width="2"><circle cx="16" cy="16" r="6"/><path d="M16 2v6M16 24v6M2 16h6M24 16h6M5.9 5.9l4.2 4.2M21.9 21.9l4.2 4.2M5.9 26.1l4.2-4.2M21.9 10.1l4.2-4.2"/></svg></span>
+              <div>
+                <strong>Technische Umsetzung</strong>
+                <span>n8n, KI-APIs, Workflows und Automatisierung</span>
+              </div>
+            </div>
+            <div class="about-trait">
+              <span class="trait-icon-wrap"><svg viewBox="0 0 32 32" fill="none" stroke="#D98A2B" stroke-width="2"><path d="M16 28s-12-7-12-15a8 8 0 0112-7 8 8 0 0112 7c0 8-12 15-12 15z"/></svg></span>
+              <div>
+                <strong>Regional verwurzelt</strong>
+                <span>Augsburg / Schwaben</span>
+              </div>
+            </div>
+            <div class="about-trait">
+              <span class="trait-icon-wrap"><svg viewBox="0 0 32 32" fill="none" stroke="#D98A2B" stroke-width="2"><path d="M6 28V12l10-8 10 8v16H6z"/><rect x="12" y="18" width="8" height="10"/></svg></span>
+              <div>
+                <strong>IHK KI-Manager</strong>
+                <span>Weiterbildung 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-text" data-reveal data-delay="100">
+          <div class="section-label">&#220;ber mich</div>
+          <h2 class="section-title text-left">
+            Kein reiner Berater.<br>
+            <span class="text-gold">Kein reiner Techniker.</span>
+          </h2>
+          <p>Mein Name ist Stephan Senser. Ich habe &#252;ber 15 Jahre lang digitale Gesch&#228;ftsbereiche aufgebaut, Kunden betreut, Teams gef&#252;hrt und Prozesse in der Praxis verbessert.</p>
+          <p>Meine Erfahrung reicht von Vertrieb und E-Commerce &#252;ber Standortaufbau und Teamf&#252;hrung bis zur Zusammenarbeit mit Kunden und Partnern in ganz Europa.</p>
+          <p>Heute verbinde ich diese Erfahrung mit technischer Umsetzungskompetenz. Ich spreche die Sprache von Gesch&#228;ftsf&#252;hrung und Teams, erkenne wiederkehrende Abl&#228;ufe und baue daraus schlanke KI- und Automatisierungsl&#246;sungen, die im Alltag funktionieren.</p>
+          <p>Nicht als theoretisches Konzept. Nicht als Tool-Demo. Sondern als praktische L&#246;sung f&#252;r echte Prozesse.</p>
+
+          <div class="career-path">
+            <div class="career-step">
+              <span class="career-dot"></span>
+              <div>
+                <strong>Rausch Verpackung</strong>
+                <span>Teamleiter Kundendruck &#183; Webmaster &#183; EDV-Support</span>
+              </div>
+            </div>
+            <div class="career-step">
+              <span class="career-dot"></span>
+              <div>
+                <strong>Dahlhoff Feinkost</strong>
+                <span>Assistenz der Gesch&#228;ftsf&#252;hrung &#183; Aufbau und Betreuung Online-Shop</span>
+              </div>
+            </div>
+            <div class="career-step">
+              <span class="career-dot"></span>
+              <div>
+                <strong>TEAM23</strong>
+                <span>Teamleitung E-Commerce</span>
+              </div>
+            </div>
+            <div class="career-step">
+              <span class="career-dot"></span>
+              <div>
+                <strong>Swisslog Healthcare Robotics</strong>
+                <span>Regional Sales Manager &#183; Head of Office</span>
+              </div>
+            </div>
+            <div class="career-step active">
+              <span class="career-dot"></span>
+              <div>
+                <strong>KI &amp; Automatisierung</strong>
+                <span>L&#246;sungen f&#252;r den Mittelstand &#183; seit 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOERDERUNG -->
+  <section class="section section-gold" id="foerderung">
+    <div class="container">
+      <div class="section-label" data-reveal>F&#246;rderung</div>
+      <h2 class="section-title" data-reveal>
+        Bayern f&#246;rdert Ihr KI-Projekt.<br>
+        <span>Ich k&#252;mmere mich darum.</span>
+      </h2>
+      <div class="foerder-grid">
+        <div class="foerder-card" data-reveal>
+          <div class="foerder-percent">50<span>%</span></div>
+          <h3>Digitalbonus Bayern</h3>
+          <p>Bis zu 50 % Zuschuss auf externe Umsetzung. Ihr KI-Projekt kostet effektiv nur die H&#228;lfte.</p>
+          <div class="foerder-detail">F&#252;r Automatisierungs-Projekte (Angebot 2)</div>
+          <div class="foerder-valid">G&#252;ltig bis 31.12.2027</div>
+        </div>
+        <div class="foerder-card" data-reveal data-delay="100">
+          <div class="foerder-percent">&#10003;</div>
+          <h3>BAFA Beratungsf&#246;rderung</h3>
+          <p>Bezuschusst unternehmerische Beratung &#8212; passt perfekt zum KI-Audit als Einstieg.</p>
+          <div class="foerder-detail">F&#252;r das KI-Audit (Angebot 1)</div>
+          <div class="foerder-valid">Bundesweites Programm</div>
+        </div>
+      </div>
+      <div class="foerder-note" data-reveal>
+        <p>Ich strukturiere Projekte von Anfang an f&#246;rderf&#228;hig. Das senkt Ihre Investition &#8212; und gibt Ihnen Sicherheit.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI ACT TEASER -->
+  <section class="section section-dark" id="aiact">
+    <div class="container">
+      <div class="aiact-banner" data-reveal>
+        <div class="aiact-date">
+          <span class="aiact-day">02.08.</span>
+          <span class="aiact-year">2026</span>
+        </div>
+        <div class="aiact-text">
+          <h3>EU AI Act &#8212; Artikel 4 tritt in Kraft</h3>
+          <p>Ab August 2026 braucht jedes Unternehmen, das KI einsetzt, eine dokumentierte Schulung f&#252;r alle Mitarbeitenden. Ich bereite Sie darauf vor &#8212; pragmatisch, ohne Panik.</p>
+        </div>
+        <a href="#kontakt" class="btn btn-ghost btn-light">Jetzt vorbereiten</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section class="section" id="kontakt">
+    <div class="container">
+      <div class="contact-layout">
+        <div class="contact-text" data-reveal>
+          <div class="section-label">Kontakt</div>
+          <h2 class="section-title text-left">
+            Lassen Sie uns<br>
+            <span class="text-gold">kurz sprechen.</span>
+          </h2>
+          <p>Ein unverbindliches Erstgespr&#228;ch &#8212; 20 Minuten, kostenlos. Ich h&#246;re zu, stelle ein paar gezielte Fragen und sage Ihnen ehrlich, ob und wo KI bei Ihnen Sinn ergibt.</p>
+          <p>Kein Verkaufsgespr&#228;ch. Kein Hexenwerk. Einfach Klartext.</p>
+        </div>
+        <div class="contact-card" data-reveal data-delay="100">
+          <div class="contact-method">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div>
+              <span class="contact-label">Telefon</span>
+              <a href="tel:+4917670805217" class="contact-value">0176 708 052 17</a>
+            </div>
+          </div>
+          <div class="contact-method">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <span class="contact-label">E-Mail</span>
+              <a href="mailto:stephan.senser@googlemail.com" class="contact-value">stephan.senser@googlemail.com</a>
+            </div>
+          </div>
+          <div class="contact-method">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <span class="contact-label">Region</span>
+              <span class="contact-value">Augsburg / Schwaben, Bayern</span>
+            </div>
+          </div>
+          <a href="mailto:stephan.senser@googlemail.com?subject=Erstgespr%C3%A4ch%20KI%20%26%20Automatisierung" class="btn btn-primary btn-full">Erstgespr&#228;ch anfragen</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="logo.svg" alt="SENSER" class="footer-logo-img">
+        </div>
+        <div class="footer-legal">
+          <span>&#169; 2026 Stephan Senser</span>
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

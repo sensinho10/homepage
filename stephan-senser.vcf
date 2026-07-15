@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Senser;Stephan;;;
+FN:Stephan Senser
+TITLE:KI- & Automatisierungsberater
+TEL;TYPE=CELL,VOICE:+49 176 70805217
+EMAIL;TYPE=INTERNET:stephan.senser@googlemail.com
+ADR;TYPE=WORK:;;;Augsburg;Bayern;;Deutschland
+NOTE:KI & Automatisierung fuer den Mittelstand
+END:VCARD
