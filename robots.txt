@@ -1,2 +1,3 @@
+# Diese Adresse ist nur noch eine Weiterleitung auf senser-ki.de.
 User-agent: *
 Disallow: /
